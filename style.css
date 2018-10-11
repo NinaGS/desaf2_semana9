@@ -1,0 +1,76 @@
+.contenedor
+{
+	background-color: white;
+	border:solid 1px #ccc;
+	padding: 25px;
+	width: 250px;
+	height: 250px;
+	overflow: auto;
+	/*float: left;*/
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.pin
+{
+	float: right;
+	background-color: transparent;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+
+.valorizacion
+{
+	float: left;
+	background-color: transparent;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: 90%
+}
+
+img#corazon
+{
+	width:100%;
+}
+
+
+
+.grillas
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+.grilla-board
+{
+	overflow: auto;
+}
+
+.grilla-formulario
+{
+	position:static;
+}
+
+textarea#valor
+{
+	border-radius:8px;
+	
+}
+
+#enviar
+{
+	border-radius:8px;
+	background-color: #5AB79C;
+	color:white;
+	padding:8px 22px;
+}
+
+.grilla-formulario
+{
+	background-color:white;
+}
+
+body
+{
+	background-color:  	#E3E8EE;
+}
